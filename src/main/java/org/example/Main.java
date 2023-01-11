@@ -1,6 +1,6 @@
 package org.example;
 
-import java.util.Scanner;
+import org.example.ui.CalculatorDriver;
 
 // You can run the project either by clicking on run button
 // or
@@ -8,6 +8,7 @@ import java.util.Scanner;
 // ./gradlew -q --console plain run
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        CalculatorDriver calculatorDriver = new CalculatorDriver();
+        calculatorDriver.run();
     }
 }
